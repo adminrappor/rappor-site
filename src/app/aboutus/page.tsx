@@ -1,14 +1,10 @@
 "use client";
 
-import Proposito from "@/components/Proposito";
-import Features from "../components/Features";
-import Hero from "../components/Hero";
-import Resultado from "@/components/Resultado";
-import Cta from "@/components/Cta";
 import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Footer from "@/components/Footer";
+import AboutUs from "@/components/AboutUs";
 
 const navigation = [
   { name: "Quem Somos", href: "/aboutus" },
@@ -112,12 +108,8 @@ export default function Home() {
           </Dialog>
         </header>
 
-        <Hero />
-        <Features />
-        <Proposito />
-        <Resultado />
-        <Cta />
-      </div> 
+        <AboutUs />
+      </div>
       <Footer />
     </>
   );
