@@ -30,11 +30,12 @@ export default function Home() {
                 aria-label="Global"
               >
                 <a href="/" className="-m-1.5 p-1.5">
-                  <span className="sr-only">Rappor</span>
+                  <span className="sr-only">Uais Company</span>
                   <img
-                    alt="Rappor"
+                    alt="Uais Company"
                     className="h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                    title="Uais Company"
+                    src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600"
                   />
                 </a>
                 <button
@@ -69,7 +70,7 @@ export default function Home() {
             <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
               <div className="flex items-center justify-between">
                 <a href="#" className="-m-1.5 p-1.5">
-                  <span className="sr-only">Rappor</span>
+                  <span className="sr-only">Uais Company</span>
                   <img
                     className="h-8 w-auto"
                     src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
